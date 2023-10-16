@@ -1,3 +1,15 @@
+## About This Package
+
+This package is a blank canvas with a jetstream authentication protocol, allowing third party registration. It also incorporated MapBox. 
+
+1. Clone or download the repository
+2. Go to the project directory and run composer install
+3. Create .env file by copying the .env.example. You may use the command to do that cp .env.example .env
+4. Update the database name and credentials in .env file
+5. Run the command php artisan migrate --seed
+6. Link storage directory: php artisan storage:link
+7. You may create a virtualhost entry to access the application or run php artisan serve from the project root and visit http://127.0.0.1:8000
+
 <p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p>
 
 <p align="center">
